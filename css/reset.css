@@ -1,0 +1,50 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+}
+html {
+  overflow-y:scroll;
+  overflow-x: hidden;
+}
+body,
+h1,
+h3 p,
+input,
+label {
+  margin: 0;
+  padding: 0;
+  font-family: "Nanum Gothic", "돋움", Dotum, Helvetica, Verdana, Arial,
+    sans-serif;
+  color: #222;
+}
+h2, h3, h4, p, a{
+  font-family: "Noto Sans KR", "NotoSans", "Titillium Web", sans-serif;
+}
+/* ->위에 전체 선택자 설정과 동일 */
+a {
+  text-decoration: none;
+  color: #222;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+.cf::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+img {
+  border: 0;
+}
