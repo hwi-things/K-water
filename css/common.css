@@ -6,15 +6,10 @@
   margin: auto;
 }
 #banner {
-  /* height: 757px; */
-  /* height: 899px; */
-  height: 969px;
-}
-#contents {
-  height: 4495px;
+  height: 100vh;
 }
 #footer {
-  height: 163px;
+  height:100vh;
 }
 #header-top {
   height: 70px;
