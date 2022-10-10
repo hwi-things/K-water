@@ -105,7 +105,7 @@ nav .gnb li a:hover {
   margin-top: 15%;
   /* margin-top: 237px; */
   margin-left: 5%;
-  animation: main 0.7s ease-in-out;
+  animation: main 1s ease-in-out;
 }
 @keyframes main {
   from {
@@ -116,13 +116,13 @@ nav .gnb li a:hover {
   }
 }
 /* contents */
-#contents div > img {
+.section div > img {
   display: block;
   margin: auto;
   padding: 20px;
   padding-top: 50px;
 }
-#contents h2 {
+.section h2 {
   position: relative;
   text-align: center;
   font-size: 42px;
@@ -132,11 +132,10 @@ nav .gnb li a:hover {
   color: #222;
   letter-spacing: -0.6px;
 }
-#contents h2 + p {
+.section h2 + p {
   font-size: 19px;
   line-height: 28px;
 }
-
 /* content1 */
 
 #content1 {
@@ -927,6 +926,34 @@ h2 + p {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+/* #content5{
+  position: relative;
+box-sizing: border-box;
+z-index: 5;
+}
+#content5 .container::before{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 1px;
+  height: 100%;
+  left: 30%;
+  top:0;
+  margin-top: -100vh;
+  background: rgba(255, 255, 255, 0.5);
+}
+#content5 .container::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 1px;
+  height: 100%;
+  right: 30%;
+  top: 50%;
+  margin-top: -100vh;
+  background: rgba(255, 255, 255, 0.5);
+} */
+
 
 /* footer */
 footer {
