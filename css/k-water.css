@@ -100,26 +100,24 @@ nav .gnb li a:hover {
   top: 5px;
 }
 #banner img {
+  position: absolute;
+  top: 15%;
   width: 592px;
   height: 249.36px;
-  margin-top: 15%;
-  /* margin-top: 237px; */
-  margin-left: 5%;
   animation: main 1s ease-in-out;
 }
 @keyframes main {
   from {
-    margin-top: 10%;
+   top: 7%;
   }
   to {
-    margin-top: 15%;
+    top: 15%;
   }
 }
 /* contents */
 .section div > img {
   display: block;
   margin: auto;
-  padding: 20px;
   padding-top: 50px;
 }
 .section h2 {
