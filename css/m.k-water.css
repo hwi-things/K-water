@@ -282,7 +282,7 @@ header .ci img {
   display: flex;
 }
 .c3_top li {
-  width: calc((100% / 4) - 4px);
+  width: calc((100% / 3) - 4px);
 }
 .c3_center {
   margin-top: 15px;
@@ -292,7 +292,9 @@ header .ci img {
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-
+.content3 p{
+  font-size: 15px;
+}
 /* content4 */
 .content4 {
   background: #e8f4ff;
