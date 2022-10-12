@@ -229,8 +229,8 @@ nav .gnb li a:hover {
     #97c4ff url(../images/c1_safety_1.png) no-repeat top right;
   height: 193px;
   margin-top: 20px;
-  border-top-left-radius: 20px, 20px;
-  border-bottom-right-radius: 20px, 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius:20px;
 }
 .c1_center {
   margin-top: 50px;
@@ -1008,4 +1008,9 @@ footer {
 }
 .fb_right ul li:first-child {
   opacity: 0.4;
+}
+.test{
+  position: absolute;
+  left: 43%;
+  padding-top: 20px;
 }
