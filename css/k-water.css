@@ -1001,6 +1001,7 @@ footer {
   width: 237px;
   height: 35px;
   border: 1px solid #7b7b7b;
+  padding: 5px 0 0 0;
 }
 #footer_info {
   border-top: 1px solid rgba(255, 255, 255, 0.22);
