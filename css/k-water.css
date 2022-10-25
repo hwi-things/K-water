@@ -235,9 +235,11 @@ nav .gnb li a:hover {
 .c1_center {
   margin-top: 50px;
   margin-left: 1.25%;
+  position: relative;
+  overflow: hidden;
 }
 .c1_center .c1_slide {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   height: 100%;
 }
@@ -272,8 +274,8 @@ nav .gnb li a:hover {
 }
 
 #content1 .c1_center p {
-  position: relative;
-  top: 416px;
+  position: absolute;
+  top: 419px;
   box-sizing: border-box;
   width: 100%;
   height: 56px;
@@ -283,6 +285,15 @@ nav .gnb li a:hover {
   font-weight: 400;
   line-height: 25px;
   padding: 14px 25px;
+}
+#content1 .c1_center .c1_slide_btn {
+  position: absolute;
+  top: 91.5%;
+  left: 79%;
+  z-index: 9;
+}
+#content1 .c1_center .c1_slide_btn a{
+  color: #fff;
 }
 .c1_right {
   margin-left: 1.25%;
